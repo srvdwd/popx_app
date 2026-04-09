@@ -1,0 +1,91 @@
+.profile-frame {
+  justify-content: flex-start;
+}
+
+.profile-topbar {
+  padding: 32px 24px 20px;
+  background: var(--white);
+}
+
+.profile-topbar-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.profile-divider-top {
+  width: 100%;
+  height: 1px;
+  background: var(--gray-border);
+}
+
+.profile-user-section {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 24px 24px 20px;
+  background: var(--white);
+}
+
+.avatar-wrapper {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.avatar-img {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+.avatar-camera-badge {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--purple);
+  border: 2px solid var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.profile-user-info {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.profile-user-name {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.profile-user-email {
+  font-size: 13px;
+  color: var(--text-sub);
+  font-weight: 400;
+}
+
+.profile-divider {
+  width: 100%;
+  height: 1px;
+  background: var(--gray-border);
+}
+
+.profile-bio-section {
+  padding: 20px 24px;
+  background: var(--white);
+}
+
+.profile-bio-text {
+  font-size: 13px;
+  color: var(--text-sub);
+  line-height: 1.7;
+}

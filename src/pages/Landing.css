@@ -1,0 +1,77 @@
+.landing-frame {
+  justify-content: flex-end;
+}
+
+.landing-illustration {
+  flex: 1;
+  position: relative;
+  background: var(--white);
+  min-height: 380px;
+}
+
+@keyframes floatDot {
+  from { transform: translateY(0px); }
+  to   { transform: translateY(-8px); }
+}
+
+
+.landing-content {
+  background: var(--white);
+  padding: 32px 28px 40px;
+  border-top: none;
+}
+
+.landing-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 12px;
+  line-height: 1.2;
+}
+
+.landing-title .brand {
+  color: var(--purple);
+}
+
+.landing-subtitle {
+  font-size: 14px;
+  color: var(--text-sub);
+  line-height: 1.6;
+  margin-bottom: 28px;
+}
+
+/* ── Buttons ── */
+.btn {
+  width: 100%;
+  padding: 16px;
+  border-radius: 6px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: opacity 0.2s ease, transform 0.1s ease;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-primary {
+  background: var(--purple);
+  color: var(--white);
+  margin-bottom: 12px;
+}
+
+.btn-primary:hover {
+  background: var(--purple-dark);
+}
+
+.btn-secondary {
+  background: #ddd6ff;
+  color: var(--purple);
+}
+
+.btn-secondary:hover {
+  background: #c9bdff;
+}
